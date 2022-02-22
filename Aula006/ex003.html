@@ -21,9 +21,12 @@
     <h1>Olá, Mundo!</h1>
     <p>Entendendo JS</p>
     <script>
-        window.alert ('Primeira frase em JS')
-        window.confirm ('Segunda Mensagem')
-        window.prompt ('Qual o seu nome?')
+        var n1 = Number(window.prompt ('Digite um número: ')) // String
+        var n2 = Number(window.prompt ('Digite outro número: ')) //String
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + String (s)) // Concatenação
+        // (number + number) para adição
+        // (string + string) para concatenação
     </script>
 </body>
 </html>
